@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "concurrently \"npm run server\" \"npm run watch\"",
+    "server": "lite-server",
+    "watch": "tsc app.ts -w"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
