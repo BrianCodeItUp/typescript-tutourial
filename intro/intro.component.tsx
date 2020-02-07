@@ -19,7 +19,7 @@ const Text: React.FC<TextProps> = ({ children, color, isVisiable }) => {
 
 
 const App = () => {
-  return (
+  return ( 
     <div>
       <Text color={'green'} isVisiable={true} >aaa</Text>
     </div>

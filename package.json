@@ -1,22 +1,19 @@
 {
   "name": "typescript-tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "https://github.com/BrianCodeItUp/typescript-tutourial.git",
+  "author": "Brian Chen <brian.chen@104.com.tw>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "concurrently": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "react": "^16.12.0"
+  },
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run watch\"",
     "server": "lite-server",
     "watch": "tsc app.ts -w"
-  },
-  "devDependencies": {
-    "concurrently": "^5.1.0",
-    "lite-server": "2.3.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/react": "^16.9.19",
-    "react": "^16.12.0"
   }
 }

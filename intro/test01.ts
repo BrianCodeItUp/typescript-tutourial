@@ -1,3 +1,3 @@
 import sum from "./utils";
 
-sum(1, 2, true)
+sum(1, 2)
